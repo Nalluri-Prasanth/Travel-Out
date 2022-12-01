@@ -1,24 +1,66 @@
-.App{
+/* 
+
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+* {
+  font-family: 'Sora', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container-lg{
+  background-color:blue;
+  height: 100px;
+  grid-template-columns: 60px 60px;
+  grid-template-rows: 90px 90px;
+
+} */
+
+body {
+  background-color: #d1d3d4;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+}
+/* }
+h2 {
   text-align: center;
+  margin: 20px 0;
+}
+.textLeft {
+  text-align: left;
+}
+.loadingDiv {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.card {
+  width: 450px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: auto;
+}
+.image {
+  min-width: 155px;
+  margin-right: 20px;
 }
 
-nav{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height:10vh;
-  background: rgb(73, 79, 82);
-  color: white;
+.row{
+ 
+  border: 2px solid orangered;
+  padding: 5px;
+  margin: 10px;
+  display : flex;
 
 }
 
-.logo img{float:left;}
-
-.nav-links{
-  width: 40%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
+.white-space{
+  
+    grid-column: 1;
+    grid-row: 2 / 5;
+  
 }
-
+ */

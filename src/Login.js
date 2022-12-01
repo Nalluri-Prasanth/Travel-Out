@@ -1,7 +1,16 @@
-import React from 'react'
+import React ,{useState} from 'react'
+
 import './login.css';
 
+
 export default function Login() {
+
+    const [email, setEmail] = useState("")
+    const [password, setPassword] = useState("")
+
+
+      
+
     return (
         <div> <center>
              <form>
@@ -9,12 +18,12 @@ export default function Login() {
 
                 <div className="form-control">
                     <label>Email address  </label>
-                    <input type="email" className="form-control" placeholder="Enter email" />
+                <input type="email"  value={email}  onChange={(e) => setEmail(e.target.value)}   className="form-control" placeholder="Enter email" />
                 </div>
 
                 <div className="form-control">
                     <label>Password  </label>
-                    <input type="password" className="form-control" placeholder="Enter password" />
+                    <input type="password" value={password} onChange={(e) => setPassword(e.target.value)}  className="form-control" placeholder="Enter password" />
                 </div>
                 
 
@@ -32,5 +41,6 @@ export default function Login() {
                 
             </form>
             </center></div>
+            
     )
 }
